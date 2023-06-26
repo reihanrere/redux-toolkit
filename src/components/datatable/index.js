@@ -25,6 +25,7 @@ const DataTable = (props) => {
       <div>
         <Grid container mb={2}>
           <Grid item width={"100%"} height={"322px"}>
+            {console.log(isLoading)}
             {isLoading ? (
               <Loading />
             ) : (
